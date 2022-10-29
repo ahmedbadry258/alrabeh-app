@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="الرابح لصيانة وإصلاح الدراجات النارية ودعم شركات التوصيل داخل دولة الكويت."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/rabeh-logo.png" />
+    <link rel="apple-touch-icon" href="img/rabeh-logo.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>الرابح لصيانة وإصلاح الدراجات النارية بدولة الكويت</title>
+  </head>
+  <body>
+    <header class="header">
+      
+      <a href="#">
+        <img class="logo" alt="rabeh-logo" src="img/rabeh-logo.png" />
+      </a>
+      <p class="phone-number">+965 99090891</p>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#Hero">من نحن</a></li>
+      
+          
+          <li>
+            <a class="main-nav-link" href="#partners">شركائنا</a>
+          </li>
+          <li><a class="main-nav-link" href="#services">خدمات</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contact-form">تواصل معنا </a></li>
+        </ul>
+      </nav>
+            
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+      
+
+    </header>
+
+    <main>
+      <section class="section-hero" id="Hero">
+        <div class="hero">
+
+          <div>
+            <img class="hero-img" src="img/hero.png" alt="moto-dark" >
+          </div>
+          <div class="hero-text-box">
+            <h1 class="heading-hero">
+             إصلاح وصيانة الدراجات النارية
+            </h1>
+            <p class="hero-description">
+              نسعى جاهدين لتقديم أفضل الخدمات الممكنة لجميع شركائنا وعملائنا 
+              بعد أن خدمنا مئات العملاء منذ بدايتنا ، ومع أكثر من 500 تقييم من فئة الخمس نجوم ،
+               نأمل أن تفكر جميع شركات التوصيل في تجربة خدمات الدراجات النارية لدينا
+            </p>
+            <a href="#contact-form" class="btn btn--full margin-right-sm"
+              >اتصل بنا</a
+            >
+
+            <a href="#services" class="btn btn--outline">تعرف أكثر &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text"><span>1000+</span>
+              خدمة صيانة وإصلاح مقدمة لشركات التوصيل  </p>
+            </div>
+         
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">العلامات التجارية</h2>
+          <div class="logos">
+            <img src="img/brands/bajaj.png" alt="bajaj-moto" />
+            <img
+              src="img/brands/boxer.png"
+              alt="boxer-moto"
+            />
+            <img
+              src="img/brands/tvs.png"
+              alt="tvs-moto"
+            />
+            <img src="img/brands/kawasaki.png" alt="kawasaki-moto" />
+            <img src="img/brands/honda.png" alt="honda-moto" />
+          </div>
+        </div>
+      </section>
+
+     
+
+          
+
+      <section class="section-meals" id="services">
+        <div class="container center-text">
+          <span class="subheading">خدمات الرابح </span>
+          <h2 class="heading-secondary">
+           نقدم لشركات التوصيل والأفراد خدمات صيانة من فنيين متخصصين
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/services/all.png"
+              class="meal-img"
+              alt="allservices"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">خدمات صيانة دورية </span>
+              </div>
+              <p class="meal-title">قم بزيارتنا لعمل صيانة دورية واحصل على الخصم</p>
+              
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="img/services/pick-up.png"
+              class="meal-img"
+              alt="pick-up"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--paleo">خدمة طوارئ <ion-icon name="call"></ion-icon> 99090891 </span>
+              </div>
+              <p class="meal-title">الرابح بجانبك لانها تقدم لك خدمة سيارة البيك اب للأعطال على مدار ال 24 ساعة اينما كنت داخل دولة الكويت</p>
+              <img class="map" src="img/kuwait (1).png" alt"kuwait-map">
+              
+            </div>
+          </div>
+
+          <div class="diets">
+
+            <h3 class="heading-tertiary">ماذا نقدم</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>تصليح أعطال الموتور</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>صيانة وتغيير الفرامل</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>تغيير بطارية دراجة نارية</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>تغيير الزيت ومعالجة التسريب</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>تغيير الإطارات والترقيع</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>ضبط وتوازن الدراجة النارية</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>تغيير مقاعد الدراجة النارية</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>حامل صندوق التوصيل</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>مرايات</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+      </section>
+
+<section class="partner-section" id="partners">
+  <h1 class="heading-partner">مؤسسات تثق فى خدماتنا</h1>
+  <br>
+  <br>
+  <div class="gallery-partner" id="gallery-partner">
+    <img class="repeat" alt="partners-logos" src="img/Repeat Grid 1@2x.png">
+  </div>
+</section>
+
+
+
+
+     <section>
+      <h1 class="heading-primary" > نحن ندعم ابطال التوصيل بخدمات متميزة لسلامتهم</h1>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/delivery3.jpeg"
+              alt="deliverman3"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/deliver2.jpeg"
+              alt="delivery-moto"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/deliver4.jpeg"
+              alt="deliveryman"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/work-shop.jpeg"
+              alt="workshop1"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/work-shop1.jpeg"
+              alt="work-shop"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/work-shop2.jpeg"
+              alt="work-shop"
+            />
+          </figure>
+          
+          
+        </div>
+      </section>
+
+
+
+      <section class="form">
+      <div id="contact-form" class="contact-form">
+        <h1 class="contact-form_title">احصل على خصم الرابح</h1>
+        
+    
+       
+        <form class="form"  method="post" th:object="${contact}" th:action="@{/send}">
+          <input required name="name"  placeholder="Name" type="text" autocomplete="off"  th:field="*{name}">
+          <input required name="email"  placeholder="E-mail" type="email" autocomplete="off"  th:field="*{email}">
+          <textarea name="message"  rows="4" placeholder="Message"  th:field="*{message}"></textarea>
+           <button class="button">Send</button>
+        </form>
+      </div>
+      </section>
+
+
+
+
+      
+
+        
+
+
+
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="rabeh-logo" src="img/rabeh-logo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href=" https://wa.me/+96599090891"
+                ><ion-icon class="social-icon" name="logo-whatsapp"></ion-icon></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> StackMedia, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">اتصل بنا</p>
+          <address class="contacts">
+            <p class="address">
+              حولى , شارع  احمد بن طولون مبنى  17 , الكويت
+            </p>
+            <p>
+              <a class="footer-link" href="tel:+96599090891">+96599090891 - +96567781095</a
+              ><br />
+              <a class="footer-link" href="alrabeh-moto@gmail.com"
+                >alrabeh-moto@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Alrabeh</a></li>
+            <li><a class="footer-link" href="#contact-form">Be our Partner</a></li>
+            
+          </ul>
+        </nav>
+
+       
+      </div>
+    </footer>
+  </body>
+</html>
